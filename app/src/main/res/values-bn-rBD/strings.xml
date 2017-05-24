@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name"> অ্যান্ড্রয়েড প্রজেক্ট 2017</string>
+    <string name="action_about">সম্বন্ধে</string>
+    <string name="action_Author">লেখক</string>
+    <string name="section_format"> অধ্যায় থেকে হ্যালো ওয়ার্ল্ড: %1$d</string>
+
+    <string name="text_microwave">মাইক্রোওয়েভে রান্না</string>
+    <string name="turn_on">চালু কর</string>
+    <string name="turn_off">বন্ধ কর</string>
+    <string name="stop">থামুন</string>
+    <string name="stop_microwave">বন্ধ করুন মাইক্রোওয়েভ রিসেট</string>
+    <string name="btn_start">শুরু</string>
+    <string name="btn_stop">থামুন</string>
+    <string name="btn_restart">আবার শুরু</string>
+    <string name="hint_enter_time">দয়া করে সেকেন্ডের মধ্যে সময় উল্লেখ করুন</string>
+    <string name="set_temp"> সেট তাপমাত্রা</string>
+    <string name="action_settings">বিন্যাস</string>
+    <string name="init_fridge_temp">3°C</string>
+    <string name="initial_freezer_temp">0°C</string>
+    <string name="text_kitchen_light">রান্নাঘর প্রভা</string>
+    <string name="microwave">মাইক্রোওয়েভ</string>
+    <string name="fridge">রেফ্রিজারেটর</string>
+    <string name="light">আলো</string>
+
+    <string name="lamp_2_is_located_in_living_area_it_apos_s_a_dimmable_light_it_will_change_it_apos_s_power_if_the_slider_below_is_dragged_left_or_right">Lamp 2 is located in Living Area. It\'s a dimmable light. It will change it\'s power if the Slider below is dragged left or right.</string>
+    <string name="smart_window_blinder_this_window_blinds_is_located_in_living_room_as_well_use_a_slider_to_stimulate_opening_and_closing_blinds_on_window">Smart Window Blinder: This Window Blinds is located in living room as well. Use a slider to stimulat opening and closing blinds on window.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="down">Down</string>
+    <string name="up">Up</string>
+    <string name="right">Right</string>
+    <string name="left">Left</string>
+    <string name="enter">Enter..</string>
+    <string name="switchonoff">সুইচ চালু বন্ধ </string>
+    <string name="lamp_3">Lamp 3 is a dimmable light. It will change it.</string>>
+
+</resources>

@@ -1,0 +1,114 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="phuong.example.com.androidproject.Television">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="193dp"
+        android:text="@string/television"
+        android:textColor="#d76262"
+        android:textColorHighlight="#ad4040"
+        android:textSize="@dimen/abc_action_bar_content_inset_material"
+        android:textStyle="bold|italic"
+        android:theme="@style/AppTheme" />
+
+
+    <GridLayout
+        android:id="@+id/activity_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="339dp"
+        android:stretchMode="columnWidth"
+        android:columnCount="4"
+        android:rowCount="4"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        tools:context="com.example.shama.final_project.Television">
+
+        <Button
+            android:id="@+id/imageViewUp"
+            android:layout_width="46dp"
+            android:layout_height="57dp"
+            android:layout_column="2"
+            android:layout_gravity="center_horizontal"
+            android:layout_row="1"
+            android:background="@drawable/sortup"
+            android:enabled="true" />
+
+        <Button
+            android:id="@+id/imageViewLeft"
+            android:layout_width="50dp"
+            android:layout_height="63dp"
+            android:layout_column="1"
+            android:layout_row="2"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/sortleft"
+            android:enabled="true"/>
+
+        <Button
+            android:id="@+id/imageViewRight"
+            android:layout_width="54dp"
+            android:layout_height="51dp"
+            android:layout_column="3"
+            android:layout_row="2"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/sortright"
+            android:enabled="true"/>
+
+        <Button
+            android:id="@+id/imageViewDown"
+            android:layout_width="60dp"
+            android:layout_height="64dp"
+            android:layout_column="2"
+            android:layout_row="3"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/sortdown"
+            android:enabled="true"/>
+
+        <Button
+            android:id="@+id/imageViewCenter"
+            android:layout_width="131dp"
+            android:layout_height="124dp"
+            android:layout_column="2"
+            android:layout_row="2"
+            android:background="@drawable/tvok"
+            android:enabled="true"/>
+
+    </GridLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="• Switch to Turn  ON or OFF. "
+        android:id="@+id/textView11"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:scrollbarSize="15dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@color/colorPrimaryDark"
+        android:id="@+id/result1"
+        android:layout_marginTop="32dp"
+        android:layout_below="@+id/switchtv"
+        android:layout_alignStart="@+id/switchtv" />
+
+    <Switch
+        android:layout_width="232dp"
+        android:layout_height="123dp"
+        android:textOff="TV OFF"
+        android:textOn="TV ON"
+        android:id="@+id/switchtv"
+        android:gravity="center_vertical"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="55dp"
+        android:textColor="#dd1111"
+        android:checked="false" />
+
+</FrameLayout>

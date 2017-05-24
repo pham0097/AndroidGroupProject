@@ -1,0 +1,35 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="phuong.example.com.androidproject.WindowBlind">
+
+
+    <SeekBar
+        android:layout_width="291dp"
+        android:layout_height="31dp"
+        android:id="@+id/WindowBlind"
+        android:layout_gravity="center" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="136dp"
+        android:text= "@string/smart_window_blinder"
+        android:id="@+id/textView3"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_centerHorizontal="true"
+        android:scrollbarSize="15dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Slider is % open"
+
+        android:id="@+id/textView4"
+        android:layout_gravity="center_horizontal|bottom"
+        android:textSize="40dp"
+        android:textColor="@color/colorAccent" />
+</FrameLayout>

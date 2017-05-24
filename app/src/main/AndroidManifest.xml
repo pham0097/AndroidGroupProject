@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.shama.final_project">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AutoMobileMain"
+            android:label="Automobile Remote Settings"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".TemparatureSettingsActivity"
+            android:label="Temparature Settings" />
+        <activity
+            android:name=".FuelLevelActivity"
+            android:label="Fuel Level Settings" />
+        <activity
+            android:name=".GpsActivity"
+            android:label="GPS Navigation " />
+        <activity
+            android:name=".LightsActivity"
+            android:label="Lights Settings" />
+        <activity
+            android:name=".OdometerActivity"
+            android:label="Odometer Settings" />
+        <activity
+            android:name=".DriveActivity"
+            android:label="Drive Settings" />
+        <activity
+            android:name=".RadioControl"
+            android:label="Radio Control Settings" />
+        <activity
+            android:name=".MicrowaveActivity"
+            android:parentActivityName=".KitchenMain" />
+        <activity
+            android:name=".FridgeActivity"
+            android:parentActivityName=".KitchenMain" />
+        <activity
+            android:name=".KitchenMainLightActivity"
+            android:parentActivityName=".KitchenMain" />
+        <activity
+            android:name=".FreezerSettingActivity"
+            android:parentActivityName=".KitchenMain" />
+        <activity android:name=".LivingRoomMain" />
+        <activity android:name=".PopupLamp1" />
+        <activity android:name=".KitchenMain" />
+
+    </application>
+
+</manifest>

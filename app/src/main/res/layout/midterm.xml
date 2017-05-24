@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="Greetings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView20" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    <CheckBox
+        android:text="Do you accept?"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBox2" />
+
+        <Button
+            android:text="Quit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:text="Say"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button3"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"/>
+
+        <TextView
+            android:text="Coprright 2017"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView23" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Type Here"
+            android:id="@+id/editText6"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_toLeftOf="@id/button3"/>
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

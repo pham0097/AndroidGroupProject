@@ -1,0 +1,30 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="phuong.example.com.androidproject.Lamp3">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lamp3"
+        android:textColor="#d76262"
+        android:textColorHighlight="#ad4040"
+        android:textSize="@dimen/abc_action_bar_content_inset_material"
+        android:textStyle="bold|italic"
+        android:theme="@style/AppTheme" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="523dp"
+        app:srcCompat="@drawable/color"
+        android:id="@+id/imageView6" />
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="169dp"
+        android:id="@+id/seekBar5" />
+
+
+</FrameLayout>

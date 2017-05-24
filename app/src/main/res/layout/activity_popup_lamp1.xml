@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="phuong.example.com.androidproject.PopupLamp1">
+    
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="• Switch to Turn  ON or OFF. "
+    android:id="@+id/textView"
+    android:layout_alignParentTop="true"
+    android:layout_alignStart="@+id/lamp1"
+
+    android:layout_centerHorizontal="true"
+    android:scrollbarSize="15dp"
+    android:textColor="@color/colorPrimaryDark"
+    android:textSize="20dp"/>
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOff="Lamp OFF"
+        android:textOn="Lamp ON"
+        android:id="@+id/lamp1"
+        android:gravity="center_vertical"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="55dp"
+        android:textColor="#dd1111"
+        android:checked="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@color/colorPrimaryDark"
+        android:id="@+id/result"
+        android:layout_marginTop="32dp"
+        android:layout_below="@+id/lamp1"
+        android:layout_alignStart="@+id/lamp1" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/lamp1"
+        android:id="@+id/imageView3"
+        android:layout_above="@+id/lamp1"
+        android:layout_alignEnd="@+id/textView"
+        android:layout_marginBottom="12dp" />
+
+</RelativeLayout>
